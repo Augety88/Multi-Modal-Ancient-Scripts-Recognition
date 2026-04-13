@@ -1,6 +1,13 @@
 # 古文字数据增强与风格转换项目
 
-本项目用于甲骨文、金文等古文字手写体和拓片图像的数据增强与风格转换，包含多种数据增强方法和深度学习模型相关脚本。
+本项目用于甲骨文、金文等古文字手写体和拓片图像的数据增强与风格转换，包含多种数据增强方法和深度学习模型相关脚本，配套学术研究论文使用。
+
+## 支撑论文
+本项目为以下学术论文的官方实现代码：
+> **论文标题**：Multi-modal ancient scripts recognition via deep learning with data homogenization and augmentation
+> 作者：Nan Wang, Weichen Wang, Bang Li 等
+> 发表期刊：npj Heritage Science
+> DOI：10.1038/s40494-025-02095-x
 
 ## 目录结构
 
@@ -99,3 +106,5 @@ python test.py --input_dir test --output_dir test_aug
 - 风格转换相关脚本：`Rubbing_to_handwriting/`
 
 ---
+
+
